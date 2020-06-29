@@ -7,8 +7,8 @@
     "Datacenter": []
   },
   "samplingTypes": [ "Sum" ],
-  "frequency": 2, // Not parsed
+  "frequency": 2,
   "lookback": 7,
   "thresholds": [ 2500000 ],
-  "comparator": ">" // Not parsed, '>' default
+  "comparator": ">"
 }
