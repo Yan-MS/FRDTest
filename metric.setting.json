@@ -6,9 +6,9 @@
     "__Role": [ "Hinting", "MetricsStore" ],
     "Datacenter": []
   },
-  "samplingTypes": [ "Sum" ],
-  "frequency": 2,
+  "frequency": 2, // Not parsed
   "lookback": 7,
-  "thresholds": [ 2500000 ],
-  "comparator": ">"
+  "samplingTypes": [ "Sum", "Count" ],
+  "thresholds": [ 2500000, 60 ],
+  "comparators": [ ">", "!=" ]
 }
