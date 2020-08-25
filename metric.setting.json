@@ -1,10 +1,14 @@
 {
-  "account": "MetricTeamInternalMetrics",
-  "namespace": "PlatformMetrics",
-  "name": "\\Memory\\Available MBytes",
+  "account": "o365popimap",
+  "namespace": "o365popimap",
+  "name": "popimapavailablity",
   "dimension": {
-    "__Role": [ "Hinting", "MetricsStore" ],
-    "Datacenter": []
+    "Component": [],
+    "Role": [],
+    "Scenario": [],
+    "IsConsumerUser": [],
+    "DeployRing": ["sip", "MSIT", "bad"],
+    "ErrorString": []
   },
   "frequency": 2, // Not parsed
   "lookback": 7,
